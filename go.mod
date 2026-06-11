@@ -1,4 +1,4 @@
-module github.com/marcuskal/dkv
+module github.com/ben-gabe/quoll
 
 go 1.25.4
 

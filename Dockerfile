@@ -65,7 +65,7 @@ FROM gcr.io/distroless/static-debian12:nonroot
 # OCI image labels — useful for image registries and supply-chain tools.
 LABEL org.opencontainers.image.title="dkv"
 LABEL org.opencontainers.image.description="Distributed key-value store"
-LABEL org.opencontainers.image.source="https://github.com/marcuskal/dkv"
+LABEL org.opencontainers.image.source="https://github.com/ben-gabe/dkv"
 
 COPY --from=build /out/dkv /usr/local/bin/dkv
 COPY --from=build /out/healthcheck /usr/local/bin/healthcheck

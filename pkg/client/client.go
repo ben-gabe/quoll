@@ -29,8 +29,8 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/status"
 
-	"github.com/marcuskal/dkv/internal/hashring"
-	v1 "github.com/marcuskal/dkv/pkg/api"
+	"github.com/ben-gabe/quoll/internal/hashring"
+	v1 "github.com/ben-gabe/quoll/pkg/api"
 )
 
 var (
